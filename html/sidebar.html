@@ -1,0 +1,38 @@
+<div id="sideRep">
+
+	<ul class="sidebar-nav">
+		<li id="index"><a href="index.html">Home</a></li>
+		<li id="hobbyGames"><a href='hobbygames.html'>Hobby Games</a></li>
+		<li id="assignments"><a href='assignments.html'>Assignment Games</a></li>
+		<li id="other"><a href='other.html'>Other Projects</a></li>
+		<li id="videos"><a href='videos.html'>Videos</a></li>
+		<li id="aboutme"><a href='aboutme.html'>About Me</a></li>
+	</ul>
+
+	<script type="text/javascript">
+	    var activePage = location.pathname.split('/').slice(-1)[0];
+	    switch(activePage)
+	    {
+	      case "index.html":
+	      document.getElementById("index").className = "active";
+	      break;
+	      case "hobbygames.html":
+	      document.getElementById("hobbyGames").className = "active";
+	      break;
+	      case "assignments.html":
+	      document.getElementById("assignments").className = "active";
+	      break;
+	      case "other.html":
+	      document.getElementById("other").className = "active";
+	      break;
+	      case "videos.html":
+	      document.getElementById("videos").className = "active";
+	      break;
+	      case "aboutme.html":
+	      document.getElementById("aboutme").className = "active";
+	      break;
+	      default:
+	      break;
+	    }
+ 	 </script>
+</div>
