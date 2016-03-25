@@ -5,12 +5,12 @@
     /* Negative indent footer by its height */
     margin: 0 auto -60px;
     /* Pad bottom by footer height */
-    padding: 0 0 60px 250px;
+    padding: 0 0 100px 250px;
     transition: all 0.5s ease;
 }
 
 #wrapper.mobile{
-    padding: 0px;
+    padding: 0 0 140px 0px;
 }
 
 #wrapper.mobile #sidebar{
@@ -63,7 +63,7 @@
 
 #topLogo.mobile{
 	transition: none;
-	width: 150px;
+	width: 100px;
 }
 
 #bottomLogo{
@@ -73,8 +73,8 @@
 }
 
 #bottomLogo.mobile{
-	top: 138px;
-	width: 150px;
+	top: 92px;
+	width: 100px;
 }
 
 /*--------------------SIDEBAR--------------------*/

@@ -35,8 +35,8 @@ header p{
 	margin: 0 10px 0 10px;
 }
 
-.pageItem p{
-
+.pageItem.mobile p, .pageItem.mobile h4, .pageItem.mobile li{
+	font-size: 25px;
 }
 
 .pageItem ul{
@@ -80,10 +80,27 @@ footer {
   transition: all 0.5s ease;
 }
 
+footer p{
+	text-align: center;
+	font-size: 18px;
+}
+
+footer img {
+	height: 25px;
+}
+
 footer.toggled {
 	width: 100%;
 }
 
 footer.mobile{
 	width: 100%;
+}
+
+footer.mobile p{
+	font-size: 28px;
+}
+
+footer.mobile img{
+	height: 40px;
 }
