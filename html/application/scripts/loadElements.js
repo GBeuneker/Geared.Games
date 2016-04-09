@@ -1,6 +1,6 @@
 $(function(){
-	$('#header').load('header.html');
-	$('#sideButton').load('sideButton.html');
+	$('#header').load('header.html', changemobile);
+	$('#sideButton').load('sideButton.html', changemobile);
 	$('#sidebar').load('sidebar.html', changemobile);
 	$('#footer').load('footer.html', changemobile);
 });
@@ -15,6 +15,7 @@ function changemobile(){
 		$("#bottomLogo").addClass('mobile');
 		$(".sidebar-nav").addClass('mobile');
 		$("#sidebar").addClass('mobile');
+		$(".pageItem").addClass('mobile');
 	}
 }
 
