@@ -1,0 +1,20 @@
+/*--------------------HEADER--------------------*/
+
+/*--------------------PAGE ITEMS--------------------*/
+
+.pageItem p, .pageItem h4, .pageItem li{
+	font-size: 25px;
+}
+
+/*--------------------GENERAL--------------------*/
+footer{
+	width: 100%;
+}
+
+footer p{
+	font-size: 28px;
+}
+
+footer img{
+	height: 40px;
+}

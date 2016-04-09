@@ -18,7 +18,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/styles/main.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/styles/sidebar.css">
 
-		<script src="<?php echo base_url(); ?>application/scripts/youtubeLoader.js"></script>
+	<script src="<?php echo base_url(); ?>application/scripts/youtubeLoader.js"></script>
+
+	<!--  Change site if we're on mobile -->
+	<?php 
+
+	if($this->agent->is_mobile())
+	    { ?>
+
+	<!-- Load mobile stylesheets -->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/styles/main_mobile.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/styles/sidebar_mobile.css">
+
+  <?php } ?>
+
+	
 </head>
 
 <body>

@@ -1,0 +1,49 @@
+/*--------------------WRAPPER--------------------*/
+#wrapper{
+    padding: 0 0 140px 0px;
+}
+
+#wrapper .sidebar{
+	width: 0px;
+}
+
+#wrapper.toggled .sidebar {
+    width: 500px;
+}
+
+/*--------------------BUTTON--------------------*/
+
+#menu-toggle{
+    margin-left: 0px;
+}
+
+#menu-toggle.toggled {
+	margin-left: 500px;
+}
+
+#topLogo{
+	transition: none;
+	width: 100px;
+}
+
+#bottomLogo{
+	top: 92px;
+	width: 100px;
+}
+
+/*--------------------SIDEBAR--------------------*/
+
+.sidebar{
+	width: 500px;
+	left: 250px;
+}
+
+.sidebar-nav{
+	width: 500px;
+}
+
+.sidebar-nav li{
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+}

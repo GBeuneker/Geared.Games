@@ -6,7 +6,7 @@ $(function() {
         p.onclick = labnolIframe;
         v[n].appendChild(p);
     }
-})();
+})
  
 function labnolThumb(id) {
     return '<img class="youtube-thumb" src="https://i.ytimg.com/vi/' + id + '/hqdefault.jpg"><div class="play-button"></div>';
