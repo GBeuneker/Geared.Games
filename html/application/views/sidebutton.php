@@ -1,0 +1,29 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+
+<div>
+	<script type="text/javascript">		
+		$(function(){
+			$("#menu-toggle").click(function(e) {
+		        e.preventDefault();
+		        $("#wrapper").toggleClass("toggled");
+		        $("footer").toggleClass("toggled");
+		        $("#menu-toggle").toggleClass("toggled");
+
+		       	if($("#topLogo").css("transform") == 'none'){
+					$("#topLogo").css("transform", "rotate(-360deg)");
+			
+				} else {
+					$("#topLogo").css("transform", "");
+				}
+		    });
+
+		});
+	</script>
+
+	<a href="#" id="menu-toggle">
+		<img src="<?php echo base_url(); ?>application/assets/avatarTop.png" alt="Geared Logo Top" id="topLogo"/>
+		<img src="<?php echo base_url(); ?>application/assets/avatarBottom.png" alt="Geared Logo Bottom" id="bottomLogo"/>
+	</a>
+</div>
