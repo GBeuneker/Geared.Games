@@ -32,7 +32,7 @@ header p{
 .pageItem img, iframe{
 	width: 100%;
 	height: auto;
-	margin: 0 10px 0 10px;
+	margin-right: 10px;
 }
 
 .pageItem.mobile p, .pageItem.mobile h4, .pageItem.mobile li{

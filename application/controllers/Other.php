@@ -20,7 +20,8 @@ class Other extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
+		$data['title'] = "Other Projects";
+		$this->load->view('header', $data);
 
 		$this->load->view('sidebar');
 		$this->load->view('sidebutton');

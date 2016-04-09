@@ -6,7 +6,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Geared Games</title>
+	<title><?php echo $title ?></title>
+	<link rel="icon" href="<?=base_url()?>application/assets/gearedLogo.png" type="image/png">
 
 	<!-- External -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>application/libraries/bootstrap/css/bootstrap.min.css">

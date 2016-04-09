@@ -20,7 +20,8 @@ class Videos extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
+		$data['title'] = "Videos";
+		$this->load->view('header', $data);
 
 		$this->load->view('sidebar');
 		$this->load->view('sidebutton');
