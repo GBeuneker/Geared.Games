@@ -24,7 +24,6 @@ class Other extends CI_Controller {
 		$this->load->view('header', $data);
 
 		$this->load->view('sidebar');
-		$this->load->view('sidebutton');
 		$this->load->view('other_content');
 		
 		$this->load->view('footer');

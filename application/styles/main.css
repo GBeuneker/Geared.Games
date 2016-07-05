@@ -23,16 +23,161 @@ header p{
 	color: #cecece
 }
 
+/*--------------------CARDS--------------------*/
+.tile-grid {
+	margin: 50pt 10% 0 10%;
+}
+
+.tile-grid ul {
+	list-style: none;
+	z-index: 1000;
+}
+
+.tile-grid li {
+	margin: 0 5pt 2pt 0pt;
+	padding: 0 2pt 0 2pt;
+	float: left;
+}
+
+.tile {
+	border-width: 0px;
+	border-style: solid;
+	border-color: #333;
+
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 247.5pt;
+	height: 300pt;
+	margin: 0 0pt 10pt 10pt;
+
+	text-align: left;
+	font-family: 'Secular One';
+	color: black;
+
+	background-color: #eee;
+}
+
+/*---FILTERS---*/
+.tile-grid .tile-filters{
+	text-align: center;
+}
+
+.tile-filters ul {
+	z-index: 1000;
+	display: inline-block;
+}
+
+.tile-filters li {
+	font-size: 20px;
+	font-family: 'Oswald';
+	color: #222;
+
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.tile-filters li:hover{
+	cursor: pointer;
+	color: #777;
+}
+
+.tile-filters li.active{
+	color: #999;
+}
+
+.tile-filters li.active:hover{
+	color: #ccc;
+}
+
+/*---BACKGROUND---*/
+.tile-image
+{
+	width: 100%;
+	height: 100%;
+}
+
+.tile-image img {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	transition: opacity 0.2s ease-in-out;
+	opacity: 0.75;
+    cursor: pointer;
+}
+
+.tile:hover .tile-image img{
+	opacity: 0.25;
+}
+
+
+/*---TITLE---*/
+.tile h1{
+	color: #343535;
+	font-weight: bold;
+}
+
+.tile h2{
+	color: #676767;
+	font-weight: bold;
+}
+
+.tile-title {
+	position: absolute;
+	top: 0;
+	padding: 0 20pt 0pt 20pt;
+}
+
+/*---DESCRIPTION---*/
+.tile-content hr{
+	border: none;
+	height: 3px;
+	color: white;
+	background-color: #343535;
+}
+
+.tile-content {
+    position: absolute;
+
+    bottom: 20pt;
+    left: 0;
+    padding: 0 20pt 0pt 20pt;
+    height: 100pt;
+
+    color: #413B3C;
+    font-family: 'Oswald';
+}
+
+/*---TAGS---*/
+.tile li{
+	background-color: #5f2525;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #222;
+}
+
+.tile .tile-tags {
+	position: absolute;
+    bottom: 0pt;
+    right: 0;
+    float: right;
+
+    color: #ddd;
+}
+
 /*--------------------PAGE ITEMS--------------------*/
 
 .pageItem {
 	padding: 40px 0 40px 0 ;
 }
 
-.pageItem img, iframe{
+.pageItem img, iframe, .youtube-player{
 	width: 100%;
 	height: auto;
-	margin-right: 10px;
+	margin: 0 10px 0 10px;
 }
 
 .pageItem.mobile p, .pageItem.mobile h4, .pageItem.mobile li{
@@ -55,29 +200,30 @@ header p{
 }
 
 /*--------------------YOUTUBE EMBEDDING--------------------*/
-.youtube-container { display: block; margin: 20px auto; width: 100%; max-width: 600px; }
-.youtube-player { display: block; width: 100%; /* assuming that the video has a 16:9 ratio */ padding-bottom: 56.25%; overflow: hidden; position: relative; width: 100%; height: 100%; cursor: hand; cursor: pointer; display: block; }
+.youtube-container { display: block; width: 100%; max-width: 600px; }
+.youtube-player { display: block; /* assuming that the video has a 16:9 ratio */ padding-bottom: 56.25%; overflow: hidden; position: relative; width: 100%; height: 100%; cursor: hand; cursor: pointer; display: block; }
 img.youtube-thumb { bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; height: auto }
 div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url("http://i.imgur.com/TxzC70f.png") no-repeat; }
 #youtube-iframe { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
 
 /*--------------------GENERAL--------------------*/
 html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-	color: rgb(180, 180, 180);
-	background-color: #3C3D3E;
-	margin-bottom: 60px;
+
 }
 
+body {
+	color: rgb(180, 180, 180);
+	background-color: #444;
+	background-image: url("http://localhost/gearedgam.es/application/assets/gearedbg.png");*/
+}
+
+/*--------------------FOOTER--------------------*/
+
 footer {
-  position: absolute;
-  bottom: 0;
-  width: calc(100% - 250px);
-  /* Set the fixed height of the footer here */
-  transition: all 0.5s ease;
+	background-color: #191919;
+	padding-top: 20px;
+	height: 150px;
+	color: #aaa;
 }
 
 footer p{
@@ -87,20 +233,4 @@ footer p{
 
 footer img {
 	height: 25px;
-}
-
-footer.toggled {
-	width: 100%;
-}
-
-footer.mobile{
-	width: 100%;
-}
-
-footer.mobile p{
-	font-size: 28px;
-}
-
-footer.mobile img{
-	height: 40px;
 }

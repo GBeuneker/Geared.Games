@@ -29,6 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<li>SQL</li>
 	<li>HTML</li>
 	<li>CSS</li>
+	<li>PHP</li>
 	<li>Javascript</li>
 	<li>Haskell</li>
 	<li>GML</li>
