@@ -30,13 +30,9 @@ class Games extends CI_Controller {
 
 	// Load all the game cards.
 	public function getGamecards()
-	{
-		$tags = null;
-		if(isset($_POST['tags']))
-			$tags = $_POST['tags'];
-		
+	{	
 		$this->load->model('gamesModel');
-		$result = $this->gamesModel->getGamecards($tags);
+		$result = $this->gamesModel->getAllGames();
 
 		echo json_encode($result);
 	}

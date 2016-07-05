@@ -10,6 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<li class="active" id="jamFilter" title="jam">Jam</li>
 		<li class="active" id="workFilter" title="work">Work</li>
 		<li class="active" id="gawFilter" title="gaw">Game a Week</li>
+		<li class="active" id="modFilter" title="mod">Mod</li>
 	</ul>
 </div>
 
@@ -17,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="tiles" id="tiles">
 	<script type="text/javascript">
-	loadAllCards();
+	loadAllGameCards();
 	</script>
 </div>
 

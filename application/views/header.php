@@ -19,11 +19,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/styles/fonts.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/styles/main.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/styles/gamepage.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/styles/videopage.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>application/styles/sidebar.css">
 
 	<script src="<?php echo base_url(); ?>application/scripts/youtubeLoader.js"></script>
 	<script src="<?php echo base_url(); ?>application/scripts/eventLoader.js"></script>
-	<script src="<?php echo base_url(); ?>application/scripts/tileManager.js"></script>
+	<script src="<?php echo base_url(); ?>application/scripts/cardManager.js"></script>
 	<script src="<?php echo base_url(); ?>application/scripts/parallax.js"></script>
 
 

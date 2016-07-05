@@ -10,7 +10,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			$index = "index.php/" 
 		?>
 		<li class="<?php if($currentPage == "Games") echo "active"; ?>"><a href='<?php echo base_url() . $index; ?>Games'>Games</a></li>
-		<li class="<?php if($currentPage == "Other") echo "active"; ?>"><a href='<?php echo base_url() . $index; ?>Other'>Other Projects</a></li>
 		<li class="<?php if($currentPage == "Videos") echo "active"; ?>"><a href='<?php echo base_url() . $index; ?>Videos'>Videos</a></li>
 		<li class="<?php if($currentPage == "About") echo "active"; ?>"><a href='<?php echo base_url() . $index; ?>About'>About Me</a></li>
 	</ul>
