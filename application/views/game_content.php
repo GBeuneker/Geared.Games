@@ -11,10 +11,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<div class="banner-button">
 		<a href="<?php echo $gameInfo['download_link'] ?>">
-		<button type="button">Download</button>
+				<p>Download</p>
 		</a>
 	</div>
-	<img id="banner-background" src="<?php echo (base_url() . "application/assets/" . $gameInfo['image']) ?>"/>
+	<img id="banner-background" src="<?php echo (base_url() . "application/assets/" . $gameInfo['image']) ?>" alt="bannerImage"/>
 	<div class="banner-content">
 			<h1><?php echo $gameInfo['title'];?></h1>
 	</div>

@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 <div class="banner" id="banner">
-	<img id="banner-background" src="<?php echo base_url() . "application/assets/gearedletters.png" ?>"/>
+	<img id="banner-background" src="<?php echo base_url() . "application/assets/gearedletters.png" ?>" alt="gearedGames"/>
 </div>
 
 <div class="textField">
@@ -44,5 +44,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 <div id="pagefill"></div>
-	
-</div>

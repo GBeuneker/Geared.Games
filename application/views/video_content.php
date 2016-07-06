@@ -22,9 +22,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="details col-sm-4">
 		<h1>Details</h1>
 		<div>
-		<ul>
-			<li><strong>Release Date: </strong><?php echo $videoInfo['release_date'] ?></li>
-			<li><strong>Youtube Channel: </strong><a href="<?php echo $videoInfo['channel_link'] ?>"><?php $videoInfo['channel_name'] ?></a></li>
+	<ul>
+		<li><strong>Video Title: </strong><?php echo $videoInfo['title'] ?></li>
+		<li><strong>Video Subject: </strong><?php echo $videoInfo['subject'] ?></li>
+		<li><strong>Release Date: </strong><?php echo $videoInfo['release_date'] ?></li>
+			<li><strong>Youtube Channel: </strong><a href="<?php echo $videoInfo['channel_link'] ?>"><?php $videoInfo['channel_name'] ?><?php echo $videoInfo['channel_name'] ?></a></li>
 		</ul>
 		</div>
 	</div>
