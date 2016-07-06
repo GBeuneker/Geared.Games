@@ -58,7 +58,7 @@
     height: 200%;
     margin-left: -250px;
     overflow-y: auto;
-    background-color: #000;
+    background-color: #191919;
     transition: all 0.5s ease;
 }
 
@@ -69,10 +69,11 @@
     margin: 0;
     padding: 0;
     list-style: none;
+
+    font-family: 'Secular One';
 }
 
 .sidebar-nav li {
-    font-weight: bold;
     text-indent: 20px;
     line-height: 40px;
 }
@@ -92,5 +93,5 @@
 .sidebar-nav .active{
 	text-decoration: none;
     color: #fff;
-	background: #444;
+	background: #3e3e3e;
 }

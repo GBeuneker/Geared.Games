@@ -28,11 +28,6 @@ $(function(){
 	}
 })
 
-function base_url()
-{
-	return "http://localhost/gearedgam.es/";
-}
-
 function activateFilter(element)
 {
 	this.id = element.target.id;
@@ -77,11 +72,17 @@ function updateCards(tags)
 	// Hide the card if it hase none of the tags enabled.
 	if(hide)
 	{
-	    $(this).hide(500);
+		if(isMobile())
+			$(this).fadeOut(500);
+		else
+	    	$(this).hide(500);
 	}
 	else
 	{
-    	$(this).show(500);
+		if(isMobile())
+			$(this).fadeIn(500);
+		else
+	    	$(this).show(500);
 	}
       
 	});
@@ -89,13 +90,13 @@ function updateCards(tags)
 
 function loadAllGameCards()
 {
-	var url = base_url() + "index.php/games/getGamecards/";
+	var url = base_url() + "Games/getGamecards/";
 	getCards(url, createGameCard);
 }
 
 function loadAllVideoCards()
 {
-	var url = base_url() + "index.php/videos/getVideocards/"
+	var url = base_url() + "Videos/getVideocards/"
 	getCards(url, createVideoCard);
 }
 
@@ -134,9 +135,9 @@ function createGameCard(cardData)
 
 	// Build a HTML string.
 	return "\
-	<a class='tile " + this.class + "' href = '" + base_url() + 'index.php/Games/Game/' + cardData.id + "'> \
+	<a class='tile " + this.class + "' href = '" + base_url() + 'Games/Game/' + cardData.id + "'> \
 		<div class='tile-image'> \
-			<img src='" + base_url() + "application/assets/" + cardData.image + "' /> \
+			<img src='" + base_url() + "../application/assets/" + cardData.image + "' /> \
 		</div> \
 		\
 		<div class='tile-title'> \
@@ -172,7 +173,7 @@ function createVideoCard(cardData)
 
 	// Build a HTML string.
 	return "\
-	<a class='tile " + this.class + "' href = '" + base_url() + 'index.php/Videos/Video/' + cardData.id + "'> \
+	<a class='tile video " + this.class + "' href = '" + base_url() + 'Videos/Video/' + cardData.id + "'> \
 		<div class='tile-image'> \
 			<img src='" + "http://img.youtube.com/vi/" + cardData.video_id + "/0.jpg' /> \
 		</div> \

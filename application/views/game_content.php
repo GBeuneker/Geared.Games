@@ -8,10 +8,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <div class="banner" id="banner">
-	<img id="banner-background" src="<?php echo (base_url() . "application/assets/" . $gameInfo['image']) ?>"/>
+
 	<div class="banner-button">
-		<a href="<?php echo $gameInfo['download_link'] ?>"><button type="button">Download</button></a>
+		<a href="<?php echo $gameInfo['download_link'] ?>">
+		<button type="button">Download</button>
+		</a>
 	</div>
+	<img id="banner-background" src="<?php echo (base_url() . "application/assets/" . $gameInfo['image']) ?>"/>
 	<div class="banner-content">
 			<h1><?php echo $gameInfo['title'];?></h1>
 	</div>
@@ -40,7 +43,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<h1>Motivation</h1>
 		<p><?php echo $gameInfo['motivation']?></p>
 	</div>
-
 </div>
 
 <div id="pagefill"></div>

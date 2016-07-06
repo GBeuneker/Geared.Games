@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script src="<?php echo base_url(); ?>application/scripts/eventLoader.js"></script>
 	<script src="<?php echo base_url(); ?>application/scripts/cardManager.js"></script>
 	<script src="<?php echo base_url(); ?>application/scripts/parallax.js"></script>
-
+	<script src="<?php echo base_url(); ?>application/scripts/config.js"></script>
 
 	<!--  Change site if we're on mobile -->
 	<?php 
