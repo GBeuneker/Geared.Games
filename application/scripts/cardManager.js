@@ -55,6 +55,7 @@ function updateFilters()
 
 function updateCards(tags)
 {
+	console.log(tags);
 	$(".tiles").children().each(function () {
 
 	var hide = true;
@@ -72,6 +73,7 @@ function updateCards(tags)
 	// Hide the card if it hase none of the tags enabled.
 	if(hide)
 	{
+		console.log("Hide!");
 		if(isMobile())
 			$(this).fadeOut(500);
 		else
@@ -79,6 +81,8 @@ function updateCards(tags)
 	}
 	else
 	{
+		console.log("Show");
+
 		if(isMobile())
 			$(this).fadeIn(500);
 		else
@@ -86,112 +90,4 @@ function updateCards(tags)
 	}
       
 	});
-}
-
-function loadAllGameCards()
-{
-	var url = base_url() + "Games/getGamecards/";
-	getCards(url, createGameCard);
-}
-
-function loadAllVideoCards()
-{
-	var url = base_url() + "Videos/getVideocards/"
-	getCards(url, createVideoCard);
-}
-
-function getCards(url, callback)
-{
-	$.ajax(
-	{	
-		url: url,
-		success: function(msg) {
-			var cardList = JSON.parse(msg);
-			for(var c in cardList)
-			{
-				if(cardList[c].title)
-					$(".tiles").append(callback(cardList[c]));
-			}
-		},
-		error: function(xhr)
-		{
-			console.log(xhr);
-		}
-	});
-}
-
-function createGameCard(cardData)
-{
-	// Extract the tags from the cardData.
-	this.tags = "";
-	this.tagList = cardData.tags.replace(" ","").split(',');
-
-	this.class = cardData.tags.replace(" ","").replace(",", " ");
-
-	for(var i in tagList)
-	{
-		tags += "<li>" + tagList[i] + "</li>" + "\n";
-	}
-
-	// Build a HTML string.
-	return "\
-	<a class='tile " + this.class + "' href = '" + base_url() + 'Games/Game/' + cardData.id + "'> \
-		<div class='tile-image'> \
-			<img src='" + base_url() + "../application/assets/" + cardData.image + "' /> \
-		</div> \
-		\
-		<div class='tile-title'> \
-			<h1>" + cardData.title + "</h1> \
-			<h2>" + cardData.engine + "</h2> \
-		</div> \
-		\
-		<div class='tile-content'>\
-			<hr> \
-			<p>" + cardData.description_short + " </p> \
-		</div> \
-		\
-		<div class='tile-tags'> \
-			<ul> " +
-			tags
-			+ "</ul> \
-		</div> \
-	</a> \ ";
-}
-
-function createVideoCard(cardData)
-{
-		// Extract the tags from the cardData.
-	this.tags = "";
-	this.tagList = cardData.tags.replace(" ","").split(',');
-
-	this.class = cardData.tags.replace(" ","").replace(",", " ");
-
-	for(var i in tagList)
-	{
-		tags += "<li>" + tagList[i] + "</li>" + "\n";
-	}
-
-	// Build a HTML string.
-	return "\
-	<a class='tile video " + this.class + "' href = '" + base_url() + 'Videos/Video/' + cardData.id + "'> \
-		<div class='tile-image'> \
-			<img src='" + "http://img.youtube.com/vi/" + cardData.video_id + "/0.jpg' /> \
-		</div> \
-		\
-		<div class='tile-title'> \
-			<h1>" + cardData.title + "</h1> \
-			<h2>" + cardData.subject + "</h2> \
-		</div> \
-		\
-		<div class='tile-content'>\
-			<hr> \
-			<p>" + cardData.description + " </p> \
-		</div> \
-		\
-		<div class='tile-tags'> \
-			<ul> " +
-			tags
-			+ "</ul> \
-		</div> \
-	</a> \ ";
 }

@@ -8,9 +8,11 @@ class Games extends CI_Controller {
 	{
 		$data['title'] = "Geared Games";
 		$this->load->view('header', $data);
-
 		$this->load->view('sidebar');
-		$this->load->view('games_content');
+
+		$this->load->model('gamesModel');
+		$data['gameInfo'] = $this->gamesModel->getAllGames();
+		$this->load->view('games_content', $data);
 	}
 
 	// Load a page for a specific game.
