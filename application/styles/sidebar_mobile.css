@@ -1,16 +1,8 @@
 /*--------------------WRAPPER--------------------*/
-#wrapper{
-    margin-left: 0px;
-}
-
-#wrapper .sidebar{
-	width: 0px;
-}
 
 #wrapper.toggled .sidebar {
     width: 500px;
 }
-
 /*--------------------BUTTON--------------------*/
 
 #menu-toggle{
@@ -22,7 +14,6 @@
 }
 
 #topLogo{
-	transition: none;
 	width: 100px;
 }
 

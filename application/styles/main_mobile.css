@@ -25,6 +25,12 @@
 	opacity: 0.4;
 }
 
+/*---FILTERS---*/
+.tile-filters li {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
 /*--------------------GENERAL--------------------*/
 footer p{
 	font-size: 28px;
