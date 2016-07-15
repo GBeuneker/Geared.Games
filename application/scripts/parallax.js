@@ -4,10 +4,12 @@ $(function(){
 	{
 		document.addEventListener("scroll", parallax);
 	}
+});
 
+$(window).on("load", function() {
 	scaleBanner();
 	fillPage();
-})
+});
 
 function parallax(element)
 {

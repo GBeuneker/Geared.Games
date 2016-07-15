@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</a>
 	</div>
 	<img id="banner-background" src="<?php echo (base_url() . "application/assets/" . $gameInfo['image']) ?>" alt="bannerImage"/>
-	<div class="banner-content">
+	<div class="banner-content strokeDark">
 			<h1><?php echo $gameInfo['title'];?></h1>
 	</div>
 </div>
