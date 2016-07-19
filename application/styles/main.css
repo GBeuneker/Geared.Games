@@ -1,6 +1,7 @@
-/*--------------------CARDS--------------------*/
+/*--------------------TILES--------------------*/
 .tile-grid {
-	margin: 50pt 10% 0 10%;
+	margin: 50pt 5% 0 5%;
+	text-align: center;
 }
 
 .tile-grid ul {
@@ -21,8 +22,8 @@
 
 	display: inline-block;
 	position: relative;
-	float: left;
-	width: 247.5pt;
+	vertical-align: top;
+	width: 250pt;
 	height: 300pt;
 	margin: 0 0pt 10pt 10pt;
 
@@ -30,7 +31,7 @@
 	font-family: 'Secular One';
 	color: black;
 
-	background-color: #3e3e3e;
+	background-color: #191919;
 }
 
 /*---FILTERS---*/
@@ -71,10 +72,14 @@
 .tile-image img {
 	display: inline-block;
 	width: 100%;
-	height: auto;
+	height: 140pt;
 	transition: opacity 0.2s ease-in-out;
 	opacity: 1;
     cursor: pointer;
+}
+
+.video .tile-image img {
+	height: 190pt;
 }
 
 .tile:hover .tile-image img{
@@ -83,6 +88,10 @@
 
 
 /*---TITLE---*/
+.tile:hover {
+	text-decoration: none;
+}
+
 .tile h1, .tile video h1{
 	color: #aaa;
 	font-weight: bold;
@@ -90,11 +99,23 @@
 	margin: 10px 0 0 0;
 }
 
+.tile:hover h1 {
+	color: #ccc;
+}
+
 .tile h2, .tile video h2 {
 	color: #676767;
 	font-weight: bold;
 	font-size: 20px;
 	margin: 0 0 0px 0px;
+}
+
+.tile:hover h2 {
+	color: #888;
+}
+
+.tile:hover p {
+	color: #ccc;
 }
 
 .tile-title {
@@ -124,11 +145,13 @@
 
 /*---TAGS---*/
 .tile li{
-	background-color: #5f2525;
-	border-radius: 5px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #222;
+	color: #191919;
+	background-color: #aaa;
+	margin: 0 5px 5px 0;
+}
+
+.tile:hover li{
+	background-color: #ccc;
 }
 
 .tile .tile-tags {
@@ -138,25 +161,6 @@
     float: right;
 
     color: #ddd;
-}
-
-/*--------------------TEXT FIELD--------------------*/
-
-.textField {
-	position: relative;
-	padding: 50px 20% 50px 20%;
-	background-color: #3e3e3e;
-
-	font-family: 'Raleway';
-	z-index: 1;
-}
-
-.textField h1, h2, h3{
-	font-family: 'Oswald';
-}
-
-.textField ul{
-	margin-bottom: 0;
 }
 
 /*--------------------YOUTUBE EMBEDDING--------------------*/
@@ -173,8 +177,8 @@ html {
 
 body {
 	color: rgb(180, 180, 180);
-	background-color: #444;
-	background-image: url("http://www.gearedgam.es/application/assets/gearedbg.png");*/
+	background-color: #3e3e3e;
+	background-image: url("http://www.gearedgam.es/application/assets/gearedbg.png");
 }
 
 .strokeDark

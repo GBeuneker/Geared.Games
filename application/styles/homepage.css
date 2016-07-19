@@ -1,0 +1,62 @@
+/*--------------------BACKGROUND--------------------*/
+.category {
+	margin-top: 75px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+.category:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.category img {
+	height: 120px;
+	width: 120px;
+	padding: 20px;
+	margin: 0;
+
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent;
+
+
+	transition: border-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.category:hover img {
+	border-color: #191919;
+	background-color: #aaa;
+}
+
+.category h1 {
+	font-size: 30px;
+	margin: 5px;
+}
+
+/*--------------------TEXT FIELD--------------------*/
+
+.home {
+	text-align: center;
+}
+
+.textField {
+	position: relative;
+
+	padding: 50px 20% 50px 20%;
+	background-color: #3e3e3e;
+
+	font-family: 'Raleway';
+	z-index: 1;
+}
+
+.textField h1, h2, h3{
+	font-family: 'Oswald';
+}
+
+.textField ul{
+	margin-bottom: 0;
+}

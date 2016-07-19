@@ -17,12 +17,13 @@ class Videos extends CI_Controller {
 	// Load a page for a specific game.
 	public function Video($id)
 	{
-		$data['title'] = "Videos";
-		$this->load->view('header', $data);
-
 		$this->load->model('videosModel');
 		$data['videoInfo'] = $this->videosModel->getVideo($id);
 
+		$gameTitle = (array)($data['videoInfo']);
+		$data['title'] = $gameTitle['title'];
+
+		$this->load->view('header', $data);
 		$this->load->view('sidebar');
 		$this->load->view('video_content', $data);
 

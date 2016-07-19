@@ -2,7 +2,7 @@
 
 .tile {
 	width: 100%;
-	height: 800px;
+	height: 600pt;
 
 	font-size: 30px;
 	margin-bottom: 40pt;
@@ -17,11 +17,11 @@
 }
 
 .video .tile-content {
-	height: 150px;
+	height: 200px;
 }
 
 .tile-content {
-    height: 150pt;
+    height: 190pt;
     font-size: 30px;
 
     font-family: 'Oswald';
@@ -29,7 +29,11 @@
 
 /*---BACKGROUND---*/
 .tile-image img {
-	opacity: 0.4;
+	height: 300pt;
+}
+
+.video .tile-image img {
+	height: 400pt;
 }
 
 /*---FILTERS---*/

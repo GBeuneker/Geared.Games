@@ -55,7 +55,6 @@ function updateFilters()
 
 function updateCards(tags)
 {
-	console.log(tags);
 	$(".tiles").children().each(function () {
 
 	var hide = true;
@@ -73,7 +72,6 @@ function updateCards(tags)
 	// Hide the card if it hase none of the tags enabled.
 	if(hide)
 	{
-		console.log("Hide!");
 		if(isMobile())
 			$(this).fadeOut(500);
 		else
@@ -81,8 +79,6 @@ function updateCards(tags)
 	}
 	else
 	{
-		console.log("Show");
-
 		if(isMobile())
 			$(this).fadeIn(500);
 		else
