@@ -13,7 +13,7 @@
 <div id="wrapper">
 	<div class="sidebar">
 		<ul class="sidebar-nav">
-			<li class=""><a href='<?php echo get_site_url(); ?> ?>'>Home</a></li>
+			<li class=""><a href='<?php echo get_site_url(); ?>'>Home</a></li>
 			<li class=""><a href='<?php echo get_site_url(); ?>/games'>Games</a></li>
 			<li class=""><a href='<?php echo get_site_url(); ?>/videos'>Videos</a></li>
 			<li class=""><a href='<?php echo get_site_url(); ?>/about'>About Me</a></li>
