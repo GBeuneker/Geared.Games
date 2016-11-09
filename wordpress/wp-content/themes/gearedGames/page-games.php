@@ -34,7 +34,7 @@ get_header();
 					$tagClass .= strtolower($tag->name) . " ";
 				}
 			?> 
-			<a class="tile <?php echo $tagClass ?>" href = "#">
+			<a class="tile <?php echo $tagClass ?>" href = "<?php the_permalink(); ?>">
 				<div class='tile-image'> 
 					<?php the_post_thumbnail(); ?>
 				</div> 

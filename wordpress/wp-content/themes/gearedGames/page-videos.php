@@ -32,14 +32,10 @@ get_header();
 					$tagClass .= strtolower($tag->name) . " ";
 				}
 			?> 
-			<a class="tile <?php echo $tagClass ?>" href = "#">
+			<a class="tile video <?php echo $tagClass ?>" href = "<?php the_permalink(); ?>">
+
 				<div class='tile-image'> 
-					<?php the_post_thumbnail(); ?>
-				</div> 
-				
-				<div class='tile-title'> 
-					<h1><?php echo the_title(); ?></h1> 
-					<h2><?php echo the_title(); ?></h2> 
+					<img src="http://img.youtube.com/vi/<?php echo substr(get_field('link'), strrpos(get_field('link'), '/') + 1) ?>/0.jpg" />
 				</div> 
 				
 				<div class='tile-content'>
