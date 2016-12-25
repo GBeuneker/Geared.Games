@@ -1,0 +1,99 @@
+/*--------------------WRAPPER--------------------*/
+#wrapper {
+    min-height: 100%;
+    margin: 0 auto -60px 0px;
+    transition: all 0.5s ease;
+}
+
+#wrapper .sidebar{
+    width: 0px;
+}
+
+#wrapper.toggled {
+	margin-left: 0;
+}
+
+#wrapper.toggled .sidebar {
+    width: 250px;
+}
+
+/*--------------------BUTTON--------------------*/
+
+#menu-toggle{
+	position: absolute;
+    margin-left: 0px;
+	z-index: 2000;
+    transition: all 0.5s ease;
+}
+
+
+#menu-toggle img{
+    margin-top: 10px;
+}
+
+#menu-toggle.toggled {
+    margin-left: 250px;
+}
+
+#topLogo{
+	position: fixed;
+	top: 0;
+	width: 50px;
+	transition: all 0.5s ease-in-out;
+}
+
+#bottomLogo{
+	position: fixed;
+	top: 46px;
+	width: 50px;
+}
+
+/*--------------------SIDEBAR--------------------*/
+.sidebar {
+    box-shadow: 5px 0px 5px #111;
+
+	z-index: 1000;
+    position: fixed;
+    left: 250px;
+    top: 0px;
+    width: 250px;
+    height: 200%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background-color: #191919;
+    transition: all 0.5s ease;
+}
+
+.sidebar-nav {
+	position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    font-family: 'Secular One';
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav .active{
+	text-decoration: none;
+    color: #fff;
+	background: #3e3e3e;
+}

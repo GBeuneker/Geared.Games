@@ -1,0 +1,219 @@
+/*--------------------TILES--------------------*/
+.tile-grid {
+	margin: 50pt 5% 0 5%;
+	text-align: center;
+}
+
+.tile-grid ul {
+	list-style: none;
+	z-index: 1000;
+}
+
+.tile {
+	border-width: 0px;
+	border-style: solid;
+	border-color: #333;
+
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	width: 250pt;
+	height: 300pt;
+	margin: 0 0pt 10pt 10pt;
+
+	text-align: left;
+	font-family: 'Secular One';
+	color: black;
+
+	background-color: #191919;
+}
+
+/*---FILTERS---*/
+.tile-grid .tile-filters{
+	text-align: center;
+}
+
+.tile-filters ul {
+	z-index: 1000;
+	display: inline-block;
+	padding: 0;
+}
+
+.tile-filters li {
+	font-size: 20px;
+	font-family: 'Oswald';
+	color: #222;
+	float: left;
+
+	margin-right: 10px;
+
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.tile-filters li:hover{
+	cursor: pointer;
+	color: #777;
+}
+
+.tile-filters li.active{
+	color: #999;
+}
+
+.tile-filters li.active:hover{
+	color: #ccc;
+}
+
+/*---BACKGROUND---*/
+.tile-image img {
+	display: inline-block;
+	width: 100%;
+	height: 140pt;
+	transition: opacity 0.2s ease-in-out;
+	opacity: 1;
+    cursor: pointer;
+}
+
+.video .tile-image img {
+	height: 190pt;
+}
+
+.tile:hover .tile-image img{
+	opacity: 0.75;
+}
+
+/*---TITLE---*/
+.tile:hover {
+	text-decoration: none;
+}
+
+.tile h1, .tile video h1{
+	color: #aaa;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 10px 0 0 0;
+}
+
+.tile:hover h1 {
+	color: #ccc;
+}
+
+.tile h2, .tile video h2 {
+	color: #676767;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 0 0px 0px;
+}
+
+.tile:hover h2 {
+	color: #888;
+}
+
+.tile:hover p {
+	color: #ccc;
+}
+
+.tile-title {
+	padding: 0 20pt 0pt 20pt;
+}
+
+/*---DESCRIPTION---*/
+.tile-content hr{
+	border: none;
+	height: 3px;
+	color: white;
+	background-color: #343535;
+}
+
+.tile-content {
+    position: absolute;
+
+    bottom: 20pt;
+    left: 0;
+    padding: 0 20pt 0pt 20pt;
+    height: 80pt;
+
+    color: #aaa;
+    font-family: 'Oswald';
+    font-size: 16px;
+}
+
+/*---TAGS---*/
+.tile li{
+	color: #191919;
+	background-color: #aaa;
+	margin: 0 5px 5px 0;
+}
+
+.tile:hover li{
+	background-color: #ccc;
+}
+
+.tile .tile-tags {
+	position: absolute;
+    bottom: 0pt;
+    right: 0;
+    float: right;
+
+    color: #ddd;
+}
+
+/*--------------------YOUTUBE EMBEDDING--------------------*/
+.youtube-container { display: block; width: 100%; max-width: 600px; }
+.youtube-player { display: block; /* assuming that the video has a 16:9 ratio */ padding-bottom: 56.25%; overflow: hidden; position: relative; width: 100%; height: 100%; cursor: hand; cursor: pointer; display: block; }
+img.youtube-thumb { bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; height: auto }
+div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url("http://i.imgur.com/TxzC70f.png") no-repeat; }
+#youtube-iframe { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+
+/*--------------------GENERAL--------------------*/
+html {
+	margin: 0;
+}
+
+body {
+	color: rgb(180, 180, 180);
+	background-color: #3e3e3e;
+	background-image: url("http://www.gearedgam.es/wp-content/themes/gearedGames/assets/gearedbg.png");
+}
+
+.strokeDark
+{
+    text-shadow:
+    -1px -1px 0 #333,
+    1px -1px 0 #333,
+    -1px 1px 0 #333,
+    1px 1px 0 #333;  
+}
+
+.strokeLight
+{
+	text-shadow:
+	-1px -1px 0 #ccc,
+	1px -1px 0 #ccc,
+	-1px 1px 0 #ccc,
+	1px 1px 0 #ccc; 
+}
+
+/*--------------------FOOTER--------------------*/
+
+footer {
+	position: relative;
+	background-color: #191919;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 150px;
+	color: #aaa;
+	z-index: 2;
+}
+
+footer p{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+footer img {
+	height: 25px;
+}
