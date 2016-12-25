@@ -1,4 +1,4 @@
-name: gearedGames
+name: Geared Games
 markdown: kwamdown
 gems: -jekyll-sitemap
-baseurl: /GearedGam.es
+baseurl: "/GearedGam.es"
