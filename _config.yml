@@ -1,3 +1,4 @@
 name: gearedGames
 markdown: kwamdown
 gems: -jekyll-sitemap
+baseurl: /GearedGam.es
