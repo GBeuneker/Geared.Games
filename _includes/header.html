@@ -9,16 +9,16 @@
   <img src="{{site.baseurl}}/assets/images/gear.png" id="nav-gear">
   <ul>
     <li>
-      <a class="nav-element" href="#">Games</a>
+        <a class="nav-element" id="{% if page.id == "home" %}active{%endif%}" href="{{site.baseurl}}/index.html">Home</a>
     </li>
     <li>
-      <a class="nav-element" href="#">Videos</a>
+      <a class="nav-element" id="{% if page.id == "games" %}active{%endif%}" href="{{site.baseurl}}/games">Games</a>
     </li>
     <li>
-      <a class="nav-element" href="#">About</a>
+      <a class="nav-element" id="{% if page.id == "videos" %}active{%endif%}" href="{{site.baseurl}}/videos">Videos</a>
     </li>
     <li>
-      <a class="nav-element" href="#">Contact</a>
+      <a class="nav-element" id="{% if page.id == "about" %}active{%endif%}" href="{{site.baseurl}}/about">About</a>
     </li>
   </ul>
 </nav>
