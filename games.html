@@ -3,6 +3,25 @@ layout: default
 id: games
 ---
 
-<div class="home textField">
-<h1>{{page.id}}</h1>
+<div class="tiles">
+{% for post in site.posts %}
+{% if post.category == "game" %}
+
+<a class="tile" href="#">
+  <div class="tile-image">
+    <img src="{{site.baseurl}}/assets/images/oldmanssky.png"/>
+  </div>
+
+  <div class="tile-title">
+    <h1>{{post.title}}</h1>
+  </div>
+
+  <div class="tile-excerpt">
+    <p>{{post.content}}</p>
+  </div>
+
+</a>
+{% endif %}
+{% endfor %}
+
 </div>

@@ -1,0 +1,38 @@
+.tile {
+	border-width: 0px;
+	border-style: solid;
+	border-color: #333;
+
+	display: inline-block;
+
+	width: 90%;
+	height: 200px;
+
+  margin: 10px 5% 0 5%;
+	text-align: left;
+	color: black;
+
+	background-color: #191919;
+}
+
+.tile:hover
+{
+  	background-color: #999;
+}
+
+.tile-image
+{
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+}
+
+.tile-image img{
+  height: 100%;
+  -webkit-mask-image: -webkit-gradient(linear, left center, right center,
+    from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.tile-title {
+
+}
