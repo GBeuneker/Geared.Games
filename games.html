@@ -1,23 +1,25 @@
 ---
-layout: default
 id: games
+layout: default
 ---
 
 <div class="tiles">
 {% for post in site.posts %}
 {% if post.category == "game" %}
 
-<a class="tile" href="#">
+<a class="tile col-md-4" href="{{post.url}}">
   <div class="tile-image">
     <img src="{{site.baseurl}}/assets/images/oldmanssky.png"/>
   </div>
 
-  <div class="tile-title">
-    <h1>{{post.title}}</h1>
-  </div>
+  <div class="tile-text">
+    <div class="tile-title">
+      <h1>{{post.title}}</h1>
+    </div>
 
-  <div class="tile-excerpt">
-    <p>{{post.content}}</p>
+    <div class="tile-excerpt">
+      <p>{{post.excerpt}}</p>
+    </div>
   </div>
 
 </a>

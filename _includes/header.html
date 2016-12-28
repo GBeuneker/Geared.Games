@@ -12,10 +12,10 @@
         <a class="nav-element" id="{% if page.id == "home" %}active{%endif%}" href="{{site.baseurl}}/index.html">Home</a>
     </li>
     <li>
-      <a class="nav-element" id="{% if page.id == "games" %}active{%endif%}" href="{{site.baseurl}}/games">Games</a>
+      <a class="nav-element" id="{% if page.id == "games" or page.category == "game" %}active{%endif%}" href="{{site.baseurl}}/games">Games</a>
     </li>
     <li>
-      <a class="nav-element" id="{% if page.id == "videos" %}active{%endif%}" href="{{site.baseurl}}/videos">Videos</a>
+      <a class="nav-element" id="{% if page.id == "videos" or page.category == "video" %}active{%endif%}" href="{{site.baseurl}}/videos">Videos</a>
     </li>
     <li>
       <a class="nav-element" id="{% if page.id == "about" %}active{%endif%}" href="{{site.baseurl}}/about">About</a>

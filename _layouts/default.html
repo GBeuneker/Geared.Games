@@ -6,6 +6,7 @@
 
 			<!-- externals -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/main.css">
@@ -15,8 +16,8 @@
 		</head>
 		<body>
       {% include header.html %}
-			<div class="container">
-			{{ content }}
+			<div class="container-fluid">
+				{{ content }}
 			</div>
 
       {% include footer.html %}

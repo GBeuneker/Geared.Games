@@ -1,3 +1,8 @@
+.tiles
+{
+	text-align: center;
+}
+
 .tile {
 	border-width: 0px;
 	border-style: solid;
@@ -5,10 +10,12 @@
 
 	display: inline-block;
 
-	width: 90%;
-	height: 200px;
+	width: 250pt;
+	height: 300pt;
 
-  margin: 10px 5% 0 5%;
+  margin: 10px;
+
+	padding: 0;
 	text-align: left;
 	color: black;
 
@@ -18,21 +25,35 @@
 .tile:hover
 {
   	background-color: #999;
+		text-decoration: none;
 }
 
 .tile-image
 {
-  height: 100%;
-  float: left;
-  margin-right: 10px;
+	width: 100%;
+
 }
 
-.tile-image img{
-  height: 100%;
-  -webkit-mask-image: -webkit-gradient(linear, left center, right center,
-    from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+.tile-image img
+{
+	width: 100%;
+	opacity: 0.9;
+	margin: 0;
 }
 
-.tile-title {
+.tile-title
+{
+		font-family: 'Secular One';
+}
 
+.tile-title h1
+{
+margin: 0;
+padding: 0;
+}
+
+.tile-text{
+	padding: 10px;
+	font-family: 'Oswald';
+	color: #aaa;
 }

@@ -1,6 +1,7 @@
 var animationLength = 500;
 var activeElement;
 var gearElement;
+var gearAngle;
 
 /*-----------------------------------------------------------------------------
 DOCUMENT EVENTS
@@ -11,7 +12,6 @@ $(function(){
 
   // Place gear at the right position
   UpdateGearPosition(GetTargetPos());
-
 
   // Click on a link
   $(".nav-element").click(function(e){
@@ -24,6 +24,17 @@ $(function(){
     e.preventDefault();
     DelayRedirect($(this).attr('href'));
   });
+
+  $(".nav-element").on('mouseenter',function(){
+    JiggleGear($(this));
+  });
+
+  $(".nav-element").on('mouseleave',function(){
+    gearElement.css({
+         transform: "rotate(" + 0 + "deg)"
+    });
+  });
+
 });
 
 $(window).on('resize', function(){
@@ -44,7 +55,7 @@ function UpdateGearPosition()
 
 function RotateGear(degree)
 {
-  $({deg: 0}).animate({deg: degree}, {
+  $({deg: gearAngle}).animate({deg: degree}, {
         duration: animationLength,
         step: function(now){
             gearElement.css({
@@ -63,6 +74,20 @@ function MoveGearTo(position)
   }, animationLength);
 
   RotateGear(posDiff);
+}
+
+function JiggleGear(element)
+{
+  if(element.offset().left < activeElement.offset().left)
+    gearAngle = 10;
+  else if(element.offset().left > activeElement.offset().left)
+    gearAngle = -10;
+  else
+    gearAngle = 0;
+
+  gearElement.css({
+       transform: "rotate(" + gearAngle + "deg)"
+  });
 }
 
 function DelayRedirect(link)

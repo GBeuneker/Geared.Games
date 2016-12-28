@@ -1,25 +1,27 @@
 /*--------------------GENERAL--------------------*/
 html {
 	background-color: #3e3e3e;
+	font-family: 'Raleway';
 }
 
 body {
   margin: 0;
 	color: #bbb;
+	background-color: #3e3e3e;
 }
 
-.container
+.container-fluid
 {
-	margin: 0 25pt 0 25pt;
+	margin: 0 15% 0 15%;
 }
 
 .strokeDark
 {
-    text-shadow:
-    -1px -1px 0 #333,
-    1px -1px 0 #333,
-    -1px 1px 0 #333,
-    1px 1px 0 #333;
+  text-shadow:
+  -1px -1px 0 #333,
+  1px -1px 0 #333,
+  -1px 1px 0 #333,
+  1px 1px 0 #333;
 }
 
 .strokeLight
