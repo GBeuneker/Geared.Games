@@ -3,10 +3,12 @@ layout: post
 category: game
 ---
 
-![alt text](http://gbeuneker.github.io/GearedGam.es/assets/images/oldmanssky.png "Game Image")
-
 A classic rendition of No Man's Sky.
 <!--content-->
+
+![alt text](http://gbeuneker.github.io/GearedGam.es/assets/images/oldmanssky.png "Game Image")
+
+
 
 ## Description
 The game is a classic rendition of No Man’s Sky using oldschool Atari 2600 graphics and control schemes. Much like the real game, you can explore planets and… well that’s it basically. Have fun!
