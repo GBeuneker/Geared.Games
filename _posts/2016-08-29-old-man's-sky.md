@@ -9,7 +9,7 @@ images:
     title: No Man's Sky
 ---
 
-A classic rendition of No Man's Sky.
+A classic rendition of No Man's Sky using oldschool Atari 2600 graphics and control schemes.
 <!--content-->
 ![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
