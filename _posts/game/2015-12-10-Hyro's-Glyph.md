@@ -9,7 +9,7 @@ images:
     title: No Man's Sky
 ---
 
-A game where you weapon can't harm anything directly. Your bullets can only make something jump/dash or teleport.
+Complete 2D platforming levels by rotating the 2D world in 3D space.
 <!--content-->
 ![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 

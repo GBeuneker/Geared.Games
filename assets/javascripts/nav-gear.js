@@ -17,7 +17,7 @@ $(function(){
   $(".nav-element").click(function(e){
     activeElement = $(this);
 
-    var targetLocation = $(this).offset().left +$(this).outerWidth()/2 - gearElement.outerWidth()/2;
+    var targetLocation = $(this).offset().left +$(this).outerWidth()/2 - 25;
     MoveGearTo(targetLocation);
 
     // Delay the page redirect
@@ -46,7 +46,7 @@ FUNCIONS
 -----------------------------------------------------------------------------*/
 function UpdateGearPosition()
 {
-  var targetPos = activeElement.offset().left + activeElement.outerWidth()/2 - gearElement.outerWidth()/2;
+  var targetPos = GetTargetPos();
 
   gearElement.css({
     left: targetPos
@@ -97,5 +97,5 @@ function DelayRedirect(link)
 
 function GetTargetPos()
 {
-  return activeElement.offset().left + activeElement.outerWidth()/2 - gearElement.outerWidth()/2;
+  return activeElement.offset().left + activeElement.outerWidth()/2 - 25;
 }

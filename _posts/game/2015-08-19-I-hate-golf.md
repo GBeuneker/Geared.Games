@@ -9,7 +9,7 @@ images:
     title: I hate golf
 ---
 
-A game where you weapon can't harm anything directly. Your bullets can only make something jump/dash or teleport.
+You must sabotage a golfing game using your magical wind powers. Make sure none of the golfers score a hole-in-one.
 <!--content-->
 ![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
