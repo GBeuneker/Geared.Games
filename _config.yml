@@ -1,1 +1,3 @@
 baseurl: "/GearedGam.es"
+permalink: /:categories/:title
+excerpt_separator: <!--content-->
