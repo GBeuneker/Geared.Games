@@ -20,6 +20,13 @@
 	color: black;
 
 	background-color: #191919;
+
+	animation: fadein 1s;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to 	 { opacity: 1; }
 }
 
 .tile:hover
@@ -56,4 +63,8 @@ padding: 0;
 	padding: 10px;
 	font-family: 'Oswald';
 	color: #aaa;
+}
+
+.tile-tag h1 {
+
 }

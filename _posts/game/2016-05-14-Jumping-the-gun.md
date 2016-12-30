@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: game
 category: game
+tag: hobby
 
 # Featured image
 images:
@@ -11,7 +12,6 @@ images:
 
 A game where you weapon can't harm anything directly. Your bullets can only make something jump/dash or teleport.
 <!--content-->
-![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
 ## Description
 In this game your gun can’t kill enemies. The only thing you can do is make enemies jump, or dash forward. You need to make clever use of your abilities to pass the obstacles presented.

@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: game
 category: game
+tag: mod
 
 # Featured image
 images:
@@ -11,7 +12,6 @@ images:
 
 A recreation of the first Super Mario 64 stage: bob-ombs battlefield.
 <!--content-->
-![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
 ## Description
 I recreated the first super mario 64 stage: bob-ombs battlefield. I tried to maintain te secrets found in the level, the canons and as much functionality as the original Mario 64 level had.

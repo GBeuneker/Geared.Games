@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: game
 category: game
+tag: jam
 
 # Featured image
 images:
@@ -11,7 +12,6 @@ images:
 
 You must sabotage a golfing game using your magical wind powers. Make sure none of the golfers score a hole-in-one.
 <!--content-->
-![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
 ## Description
 Annoy your golfing rival with your amazing wind powers. He’s a really good golfer and will score a hole-in-one if you stand by and watch. Use your wind powers wisely to ruin his golf game!

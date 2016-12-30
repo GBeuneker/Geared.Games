@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: game
 category: game
+tag: hobby
 
 # Featured image
 images:
@@ -11,7 +12,6 @@ images:
 
 You must build and manage a train network. Build railways and trains and try to optimize your train schedule.
 <!--content-->
-![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
 ## Description
 You need to build and manage a network of trains. Build tracks between cities, buy the right trains perform maintenance on your trains, manage your budget and reroute your network if there is trouble.

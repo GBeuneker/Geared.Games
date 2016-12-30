@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: game
 category: game
+tag: hobby
 
 # Featured image
 images:
@@ -11,7 +12,6 @@ images:
 
 A simple arena shooter game where you must survive for as long as possible. Upgrade your abilities to become stronger and try to survive as long as possible.
 <!--content-->
-![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
 ## Description
 You are a cube attacked by a barrage of evil enemy cubes. Fight off waves of enemies using your magic powers. Upgrade the powers you can use, level up your character and try to get as far as possible.

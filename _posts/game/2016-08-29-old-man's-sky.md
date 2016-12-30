@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: game
 category: game
+tag: jam
 
 # Featured image
 images:
@@ -11,7 +12,6 @@ images:
 
 A classic rendition of No Man's Sky using oldschool Atari 2600 graphics and control schemes.
 <!--content-->
-![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
 ## Description
 The game is a classic rendition of No Man’s Sky using oldschool Atari 2600 graphics and control schemes. Much like the real game, you can explore planets and… well that’s it basically. Have fun!

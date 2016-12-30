@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: game
 category: game
+tag: jam
 
 # Featured image
 images:
@@ -11,7 +12,6 @@ images:
 
 A game where you don't control the character, but you control the level. You have to make sure the character reaches the end of the level by placing the right platforms in the right places.
 <!--content-->
-![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
 ## Description
 In this game you don’t control the character, you can only control the level. The character does all the walking/jumping while you have to make sure he makes it to the end by building the level.

@@ -58,6 +58,40 @@ header{
   background-color: #888;
 }
 
+.header-links {
+  position: absolute;
+  right: 0;
+  top: 75px;
+  z-index: 3;
+}
+
+.header-links img{
+  height: 20px;
+  opacity: 0.6;
+  transition: opacity 0.1s;
+}
+
+.header-links img:hover {
+  opacity: 1;
+}
+
+.header-links li{
+list-style: none;
+float: left;
+margin-left: 5px;
+padding: 0;
+}
+
+.header-links ul {
+  float: left;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.header-links p {
+  float: left;
+}
+
 #nav-gear
 {
   position: absolute;

@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: game
 category: game
+tag: mod
 
 # Featured image
 images:
@@ -11,7 +12,6 @@ images:
 
 A team fortress 2 level based on the highschool I went to.
 <!--content-->
-![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
 ## Description
 My second rendition of creating my former highschool in Team Fortress 2. The map contains 12 secrets and is a lot of fun in arena type matches.

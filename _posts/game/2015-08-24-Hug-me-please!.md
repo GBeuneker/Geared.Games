@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: game
 category: game
+tag: jam
 
 # Featured image
 images:
@@ -11,7 +12,6 @@ images:
 
 In this game you just want to get some love from the humans. Sadly, you are a giant scary monster trampling buildings.
 <!--content-->
-![alt text]({{site.baseurl}}{{page.images[0].url}} "{{page.images[0].alt}}")
 
 ## Description
 You are a giant scary monster destroying cities. But all you want is some hugs from the tiny humans. Unfortunately you destroy everything in your way while the humans try to kill you.
