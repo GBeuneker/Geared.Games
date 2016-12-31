@@ -8,7 +8,6 @@ In this episode we analyze the design behind Half-Life 2.
 <!--content-->
 
 ## Details
-## Details
 **Video Title:** {{page.title}}  
 **Release Date:**  {{page.date | date:'%B %d, %Y'}}  
 **Video Link:** <https://www.youtube.com/watch?v={{page.video_id}}>  

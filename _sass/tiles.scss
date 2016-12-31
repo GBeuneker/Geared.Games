@@ -1,6 +1,11 @@
 .tiles
 {
-	
+
+}
+
+.tiles-featured
+{
+	text-align: center;
 }
 
 .tile {
@@ -10,8 +15,10 @@
 
 	display: inline-block;
 
+	//-----Set in tiles.js-----
 	width: 250pt;
 	height: 300pt;
+	//----------
 
   margin: 10px;
 
