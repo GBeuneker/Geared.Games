@@ -11,7 +11,7 @@ $(function(){
   gearElement = $("#nav-gear");
 
   // Place gear at the right position
-  UpdateGearPosition(GetTargetPos());
+  UpdateGearPosition();
 
   // Click on a link
   $(".nav-element").click(function(e){
@@ -37,6 +37,10 @@ $(function(){
 
 });
 
+$(window).on('load', function(){
+  UpdateGearPosition();
+});
+
 $(window).on('resize', function(){
   UpdateGearPosition();
 });
@@ -47,7 +51,6 @@ FUNCIONS
 function UpdateGearPosition()
 {
   var targetPos = GetTargetPos();
-
   gearElement.css({
     left: targetPos
   });
