@@ -1,43 +1,44 @@
-header{
-
-}
-
+//----------HEADER LOGO----------
 .header-logo
 {
-  position: relative;
-  z-index: 3;
-  margin: 0;
+  position: absolute;
   height: 100px;
-  background-color: #3e3e3e;
+  top: -8px;
+  z-index: 3;
+
+  margin: 0;
 }
 .header-logo img
 {
   height: 100%;
 }
 
+//----------HEADER NAVIGATION BAR----------
 .header-navbar
 {
   position: relative;
   z-index: 2;
+
   text-align: center;
-  background-color: #999;
   border-width: 0;
   height: 50px;
+
+  background-color: #c9c9c9;
 }
 
 .header-navbar ul
 {
   display: inline-block;
-  list-style-type: none;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
+  list-style-type: none;
+
   height: 100%;
 }
 
 .header-navbar li
 {
   float: left;
+
   margin: 0px;
   height: 100%;
 }
@@ -45,12 +46,17 @@ header{
 .header-navbar a
 {
   display: block;
+
   text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 16px;
-  color: black;
+  font-size: 18px;
+  font-weight: 900;
+
+  font-family: "Century Gothic", sans-serif;
+
+  padding: 24px 16px 16px 16px;
   margin: 0px;
+
+  color: #3a3a3a;
 }
 
 .header-navbar a:hover
@@ -58,10 +64,22 @@ header{
   background-color: #888;
 }
 
+//----------HEADER NAVIGATION GEAR----------
+#nav-gear
+{
+  position: absolute;
+  top: -25px;
+  left: -50px;
+  height: 50px;
+  z-index: 1;
+}
+
+//----------HEADER SOCIAL LINKS----------
 .header-links {
+  font-family: "Century Gothic", sans-serif;
   position: absolute;
   right: 0;
-  top: 75px;
+  top: 25px;
   z-index: 3;
 }
 
@@ -90,13 +108,4 @@ padding: 0;
 
 .header-links p {
   float: left;
-}
-
-#nav-gear
-{
-  position: absolute;
-  top: -25px;
-  left: -50px;
-  height: 50px;
-  z-index: 1;
 }
