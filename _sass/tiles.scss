@@ -1,6 +1,6 @@
 .tiles
 {
-	text-align: center;
+
 }
 
 .tile {
@@ -19,35 +19,9 @@
 	text-align: left;
 	color: black;
 	transform: rotateY(90deg);
+
 	background-color: #191919;
 	animation: turnAround 1s forwards;
-}
-
-.tile:nth-child(0){
-	animation-delay: 0.05s;
-}
-.tile:nth-child(6n+1){
-	animation-delay: 0.1s;
-}
-.tile:nth-child(6n+2){
-	animation-delay: 0.15s;
-}
-.tile:nth-child(6n+3){
-	animation-delay: 0.20s;
-}
-.tile:nth-child(6n+4){
-	animation-delay: 0.25s;
-}
-.tile:nth-child(6n+5){
-	animation-delay: 0.3s;
-}
-.tile:nth-child(6n+6){
-	animation-delay: 0.35s;
-}
-
-@keyframes fadein {
-	from { opacity: 0; }
-	to 	 { opacity: 1; }
 }
 
 @keyframes turnAround {
@@ -64,7 +38,6 @@
 .tile-image
 {
 	width: 100%;
-
 }
 
 .tile-image img
@@ -88,9 +61,10 @@ padding: 0;
 .tile-text{
 	padding: 10px;
 	font-family: 'Oswald';
+	font-size: 18px;
 	color: #aaa;
 }
 
-.tile-tag h1 {
-
+.tile-tag {
+	font-family: 'Secular One';
 }

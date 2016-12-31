@@ -1,6 +1,12 @@
 .post-content
 {
+  padding: 50px 0 50px 0;
+  font-family: 'Raleway';
+  font-size: 15px;
+}
 
+.post-content h2 {
+  font-family: 'Oswald';
 }
 
 .post-banner
@@ -20,5 +26,8 @@
 {
   margin: 0;
   bottom: 0%;
-  transform: translate(0,200px);
+  transform: translate(0,180px);
+  font-family: 'Secular One';
+  font-size: 60px;
+  text-shadow: 2px 2px #000;
 }
