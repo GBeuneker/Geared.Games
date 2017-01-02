@@ -1,3 +1,6 @@
+url: https://www.gearedgam.es
+enforce_ssl: www.gearedgam.es
+
 baseurl: ""
 permalink: /:categories/:title
 excerpt_separator: <!--content-->
