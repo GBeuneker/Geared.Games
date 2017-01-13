@@ -17,7 +17,7 @@ A video where the mechanics behind portals are recreated and explained.
 ## Details
 **Video Title:** {{page.title}}  
 **Release Date:**  {{page.date | date:'%B %d, %Y'}}  
-**Video Link:** <https://www.youtube.com/watch?v={{page.video_id}}>  
+**Video Link:** -TBA-
 
 ## Description    
 A brand new series: Bitwise! In this series we take apart a game mechanic and recreate it. We explain in-depth how the mechanic works and what techniques are behind it.
