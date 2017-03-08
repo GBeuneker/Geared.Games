@@ -1,5 +1,5 @@
 AuthName "test"
 AuthType Basic
-AuthUserFile .htpasswds
+AuthUserFile http://gearedgam.es/.htpasswds
 
 Require valid-user
