@@ -1,5 +1,0 @@
-AuthName "test"
-AuthType Basic
-AuthUserFile gearedgam.es/.htpasswds
-
-Require valid-user
