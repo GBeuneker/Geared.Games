@@ -3,12 +3,6 @@ layout: game
 category: video
 video_id: _SmPR5mvH7w
 tag: bitwise
-
-# Featured image
-images:
-  - url: /assets/images/bitwise-portal.png
-    alt: Game Logo
-    title: Bitwise Portal
 ---
 
 How did valve create their iconic portals? In this video I demonstrate my process of recreating the portals in Portal.
