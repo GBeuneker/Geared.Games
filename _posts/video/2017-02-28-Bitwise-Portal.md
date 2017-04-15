@@ -1,5 +1,5 @@
 ---
-layout: game
+layout: video
 category: video
 video_id: _SmPR5mvH7w
 tag: bitwise
