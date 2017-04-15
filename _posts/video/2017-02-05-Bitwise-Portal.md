@@ -1,8 +1,8 @@
 ---
 layout: game
 category: video
-video_id:
-tag: inprogress
+video_id: _SmPR5mvH7w
+tag: bitwise
 
 # Featured image
 images:
@@ -11,13 +11,13 @@ images:
     title: Bitwise Portal
 ---
 
-A video where the mechanics behind portals are recreated and explained.
+How did valve create their iconic portals? In this video I demonstrate my process of recreating the portals in Portal.
 <!--content-->
 
 ## Details
 **Video Title:** {{page.title}}  
 **Release Date:**  {{page.date | date:'%B %d, %Y'}}  
-**Video Link:** -TBA-
+**Video Link:** <https://www.youtube.com/watch?v={{page.video_id}}>  
 
 ## Description    
 A brand new series: Bitwise! In this series we take apart a game mechanic and recreate it. We explain in-depth how the mechanic works and what techniques are behind it.
