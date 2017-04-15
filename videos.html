@@ -5,6 +5,26 @@ id: videos
 
 <div class="tiles">
 
+<h1 class= "tile-tag col-md-12">Bitwise</h1>
+{% for post in site.posts %}
+{% if post.category == "video" and post.tag == "bitwise"%}
+
+<a class="tile col-md-4" href="{{site.baseurl}}{{post.url}}">
+  <div class="tile-image">
+  <img src="http://img.youtube.com/vi/{{post.video_id}}/0.jpg" />
+  </div>
+
+  <div class="tile-text">
+
+    <div class="tile-excerpt">
+      <p>{{post.excerpt}}</p>
+    </div>
+  </div>
+
+</a>
+{% endif %}
+{% endfor %}
+  
 <h1 class= "tile-tag col-md-12">Game Plunge</h1>
 {% for post in site.posts %}
 {% if post.category == "video" and post.tag == "gameplunge"%}
