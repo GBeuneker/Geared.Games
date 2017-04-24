@@ -7,8 +7,11 @@ tag: jam
 images:
   - url: /assets/images/twayf.gif
     alt: Game Logo
-    title: Dimensional Duo
+    title: The World At Your Feet
 ---
+
+A tiny world revolves underneath your character. Shoot objects into the world from your feet and stack them up to get as high as possible!
+<!--content-->
 
 ## Description
 A tiny world revolves underneath your character. Shoot objects into the world from your feet and stack them up to get as high as possible!
