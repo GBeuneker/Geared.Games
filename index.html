@@ -11,9 +11,8 @@ id: home
 	The videos here are mostly inspired by video games and game design.
 	</p>
 
-	<h1>Projects I'm currently Working on</h1>
-	{% for post in site.posts %}
-	{% if post.tag == "inprogress"%}
+	<h1>Recent posts</h1>
+	{% for post in site.posts limit:3 %}
 
 		<a class="tile" href="{{site.baseurl}}{{post.url}}">
 		  <div class="tile-image">
@@ -31,7 +30,6 @@ id: home
 		  </div>
 
 		</a>
-		{% endif %}
 		{% endfor %}
 
 </div>
