@@ -16,7 +16,11 @@ id: home
 
 		<a class="tile" href="{{site.baseurl}}{{post.url}}">
 		  <div class="tile-image">
+				{% if post.category == "game" %}
 		    <img src="{{site.baseurl}}{{post.images[0].url}}"/>
+				{% elsif page.category == "video" %}
+				<img src="http://img.youtube.com/vi/{{post.video_id}}/0.jpg" />
+				{% endif %}
 		  </div>
 
 		  <div class="tile-text">
