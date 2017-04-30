@@ -109,3 +109,35 @@ padding: 0;
 .header-links p {
   float: left;
 }
+
+@media only screen and (max-width:1010px)
+{
+  .header-logo
+  {
+    height: 80pt;
+  }
+  .header-navbar
+  {
+    height: 65pt;
+  }
+
+  .header-navbar a
+  {
+    font-size: 25pt;
+  }
+
+  .header-links {
+    top: 40pt;
+  }
+
+  .header-links p {
+   display: none;
+  }
+
+  .header-links img{
+    height: 23pt;
+    opacity: 0.6;
+    transition: opacity 0.1s;
+    margin-right: 5px;
+  }
+}

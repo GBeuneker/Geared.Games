@@ -1,6 +1,8 @@
 .tiles
 {
-
+	padding: 0;
+	margin: 0 auto;
+	width: 1060px;
 }
 
 .tiles-featured
@@ -74,4 +76,29 @@ padding: 0;
 
 .tile-tag {
 	font-family: 'Secular One';
+}
+
+@media (max-width: 1010px)
+{
+	.tiles
+	{
+		width: auto;
+		text-align: center;
+	}
+
+	.tile{
+		width: 400pt;
+		height: 500pt;
+	}
+}
+
+@media only screen and (max-width:1010px)
+{
+	.tile-title h1{
+		font-size: 40pt;
+	}
+
+	.tile-text{
+		font-size: 25pt;
+	}
 }

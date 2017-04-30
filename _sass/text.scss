@@ -25,3 +25,22 @@
 {
   text-align: left;
 }
+
+@media only screen and (max-width:1010px)
+{
+	.text
+  {
+		font-size: 35px;
+    text-align: center;
+	}
+
+  .text h1
+  {
+    font-size: 50px;
+  }
+
+  .text h2
+  {
+    font-size: 50px;
+  }
+}
