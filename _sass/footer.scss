@@ -10,6 +10,9 @@ footer {
   bottom: 0;
   height: 50px;
   width: 100%;
+
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 footer p
