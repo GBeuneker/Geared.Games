@@ -78,7 +78,7 @@ padding: 0;
 	font-family: 'Secular One';
 }
 
-@media (max-width: 1010px)
+@media only screen and (max-width:1010px)
 {
 	.tiles
 	{
@@ -90,10 +90,7 @@ padding: 0;
 		width: 400pt;
 		height: 500pt;
 	}
-}
 
-@media only screen and (max-width:1010px)
-{
 	.tile-title h1{
 		font-size: 40pt;
 	}
