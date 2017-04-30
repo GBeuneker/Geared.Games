@@ -5,7 +5,11 @@ tag: jam
 
 # Featured image
 images:
-  - url: /assets/images/golf.png
+  - url: /assets/images/golf-thumbnail.jpg
+    alt: Game Logo
+    title: I hate golf
+
+  - url: /assets/images/golf.jpg
     alt: Game Logo
     title: I hate golf
 ---

@@ -5,7 +5,11 @@ tag: jam
 
 # Featured image
 images:
-  - url: /assets/images/twayf.gif
+  - url: /assets/images/twayf-thumbnail.gif
+    alt: Game Logo
+    title: The World At Your Feet
+
+  - url: /assets/images/twayf.jpg
     alt: Game Logo
     title: The World At Your Feet
 ---

@@ -8,6 +8,10 @@ images:
   - url: /assets/images/joel.jpg
     alt: Game Logo
     title: Joel's Journey
+
+  - url: /assets/images/joel-thumbnail.jpg
+    alt: Game Logo
+    title: Joel's Journey
 ---
 
 A game where you don't control the character, but you control the level. You have to make sure the character reaches the end of the level by placing the right platforms in the right places.

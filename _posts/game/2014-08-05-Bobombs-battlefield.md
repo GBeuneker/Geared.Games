@@ -5,6 +5,10 @@ tag: mod
 
 # Featured image
 images:
+  - url: /assets/images/bobombs-thumbnail.jpg
+    alt: Game Logo
+    title: Bobombs Battlefield
+
   - url: /assets/images/bobombs.jpg
     alt: Game Logo
     title: Bobombs Battlefield

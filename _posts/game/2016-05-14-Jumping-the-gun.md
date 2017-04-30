@@ -5,7 +5,11 @@ tag: hobby
 
 # Featured image
 images:
-  - url: /assets/images/jumping.png
+  - url: /assets/images/jumping-thumbnail.jpg
+    alt: Game Logo
+    title: No Man's Sky
+
+  - url: /assets/images/jumping.jpg
     alt: Game Logo
     title: No Man's Sky
 ---

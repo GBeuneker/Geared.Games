@@ -5,7 +5,11 @@ tag: assignment
 
 # Featured image
 images:
-  - url: /assets/images/hyro.png
+  - url: /assets/images/hyro-thumbnail.jpg
+    alt: Game Logo
+    title: No Man's Sky
+
+  - url: /assets/images/hyro.jpg
     alt: Game Logo
     title: No Man's Sky
 ---

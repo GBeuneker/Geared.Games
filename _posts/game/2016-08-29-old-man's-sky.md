@@ -5,7 +5,11 @@ tag: jam
 
 # Featured image
 images:
-  - url: /assets/images/oldmanssky.png
+  - url: /assets/images/oldmanssky-thumbnail.jpg
+    alt: Game Logo
+    title: No Man's Sky
+
+  - url: /assets/images/oldmanssky.jpg
     alt: Game Logo
     title: No Man's Sky
 ---

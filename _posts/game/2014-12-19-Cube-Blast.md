@@ -5,6 +5,10 @@ tag: hobby
 
 # Featured image
 images:
+  - url: /assets/images/cube-thumbnail.jpg
+    alt: Game Logo
+    title: Cube Blast
+
   - url: /assets/images/cube.jpg
     alt: Game Logo
     title: Cube Blast

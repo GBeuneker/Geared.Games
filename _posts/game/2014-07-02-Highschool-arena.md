@@ -5,6 +5,10 @@ tag: mod
 
 # Featured image
 images:
+  - url: /assets/images/highschool-thumbnail.jpg
+    alt: Game Logo
+    title: Highschool Arena
+
   - url: /assets/images/highschool.jpg
     alt: Game Logo
     title: Highschool Arena

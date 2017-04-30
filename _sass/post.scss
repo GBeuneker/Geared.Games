@@ -11,7 +11,7 @@
 
 .post-banner
 {
-  height: 250px;
+  height: 450px;
   background-attachment: fixed;
   background-position: 50% 10px;
   background-repeat: no-repeat;
@@ -26,15 +26,36 @@
 {
   margin: 0;
   bottom: 0%;
-  transform: translate(0,180px);
+  transform: translate(0,380px);
   font-family: 'Secular One';
   font-size: 60px;
   text-shadow: 2px 2px #000;
   color: #eee;
 }
 
+iframe
+{
+  width: 800px;
+  height: 100%;
+}
+
 @media only screen and (max-width:1010px)
 {
+  .post-banner
+  {
+    height: 250px;
+  }
+
+  .post-banner h1
+  {
+      transform: translate(0,180px);
+  }
+
+  iframe
+  {
+    width: 445px;
+  }
+
   .post-content
   {
     font-size: 25pt;

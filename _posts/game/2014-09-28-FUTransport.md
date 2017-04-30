@@ -5,6 +5,10 @@ tag: hobby
 
 # Featured image
 images:
+  - url: /assets/images/futransport-thumbnail.jpg
+    alt: Game Logo
+    title: FUTransport
+
   - url: /assets/images/futransport.jpg
     alt: Game Logo
     title: FUTransport

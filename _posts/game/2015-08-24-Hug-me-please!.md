@@ -5,7 +5,11 @@ tag: jam
 
 # Featured image
 images:
-  - url: /assets/images/hugme.png
+  - url: /assets/images/hugme-thumbnail.jpg
+    alt: Game Logo
+    title: Huge Me, Please!
+
+  - url: /assets/images/hugme.jpg
     alt: Game Logo
     title: Huge Me, Please!
 ---

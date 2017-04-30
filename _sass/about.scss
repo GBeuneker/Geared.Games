@@ -1,0 +1,21 @@
+.profile
+{
+  height: 250px;
+  margin: 0 10px 10px 0;
+
+  float: left;
+  border-radius: 10pt;
+}
+
+@media only screen and (max-width:1010px)
+{
+  .profile
+  {
+    float: none;
+  }
+
+  li
+  {
+    text-align: left;
+  }
+}

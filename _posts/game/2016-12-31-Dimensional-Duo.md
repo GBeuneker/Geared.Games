@@ -5,7 +5,11 @@ tag: inprogress
 
 # Featured image
 images:
-  - url: /assets/images/dimduo.png
+  - url: /assets/images/dimduo-thumbnail.jpg
+    alt: Game Logo
+    title: Dimensional Duo
+
+  - url: /assets/images/dimduo.jpg
     alt: Game Logo
     title: Dimensional Duo
 ---
