@@ -17,7 +17,8 @@ function resizeTiles()
 {
   var width = $(window).width();
 
-  if(width < 1010)
+  // Conversion px=>pt because 1 pt == 0.75 px
+  if(width < (1040 / 0.75))
   {
     $(".tile").each(function(index){
       $(this).removeClass("col-md-4");
