@@ -70,7 +70,7 @@ padding: 0;
 .tile-text{
 	padding: 10px;
 	font-family: 'Oswald';
-	font-size: 18px;
+	font-size: 12pt;
 	color: #aaa;
 }
 
@@ -78,7 +78,7 @@ padding: 0;
 	font-family: 'Secular One';
 }
 
-@media only screen and (max-width:1010px)
+@media only screen and (max-width:1020px)
 {
 	.tiles
 	{
@@ -96,6 +96,6 @@ padding: 0;
 	}
 
 	.tile-text{
-		font-size: 25pt;
+		font-size: 16pt;
 	}
 }

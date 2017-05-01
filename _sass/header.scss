@@ -8,6 +8,7 @@
 
   margin: 0;
 }
+
 .header-logo img
 {
   height: 100%;
@@ -110,35 +111,15 @@ padding: 0;
   float: left;
 }
 
-@media only screen and (max-width:1010px)
+@media only screen and (max-width:1020px)
 {
+  .header-links
+  {
+    top: 40pt;
+  }
+
   .header-logo
   {
-    height: 80pt;
-      top: 3pt;
-  }
-  .header-navbar
-  {
-    height: 50pt;
-  }
-
-  .header-navbar a
-  {
-    font-size: 15pt;
-  }
-
-  .header-links {
-    top: 25pt;
-  }
-
-  .header-links p {
-   display: none;
-  }
-
-  .header-links img{
-    height: 23pt;
-    opacity: 0.6;
-    transition: opacity 0.1s;
-    margin-right: 5px;
+    content:url("assets/images/geared-logo-minimized-dark.png");
   }
 }

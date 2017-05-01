@@ -38,30 +38,3 @@ iframe
   width: 800px;
   height: 100%;
 }
-
-@media only screen and (max-width:1010px)
-{
-  .post-banner
-  {
-    height: 250px;
-  }
-
-  .post-banner h1
-  {
-      transform: translate(0,180px);
-  }
-
-  iframe
-  {
-    width: 445px;
-  }
-
-  .post-content
-  {
-    font-size: 25pt;
-  }
-
-  .post-content h2 {
-    font-size: 40pt;
-  }
-}

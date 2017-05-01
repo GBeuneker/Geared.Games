@@ -50,6 +50,8 @@ FUNCIONS
 -----------------------------------------------------------------------------*/
 function UpdateGearPosition()
 {
+  if(!activeElement)
+    return;
   var targetPos = GetTargetPos();
   gearElement.css({
     left: targetPos
