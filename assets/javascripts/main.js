@@ -9,7 +9,7 @@ $(window).on('resize', function(){
 
 function pushFooterDown()
 {
-  if($(document).height() <= $(window).height())
+  if($(document).height() <= window.screen.height)
   {
     $('footer').css("position", "absolute");
   }
