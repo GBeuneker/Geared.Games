@@ -1,5 +1,4 @@
 $(function(){
-  loadMobile();
   pushFooterDown();
 })
 
@@ -9,17 +8,19 @@ $(window).on('resize', function(){
 
 function pushFooterDown()
 {
-  if($(document).height() <= window.screen.height)
+  if($(document).height() <= $(window).height())
   {
     $('footer').css("position", "absolute");
   }
-  else {
+  else
+  {
       $('footer').css("position", "");
   }
 }
 
 function loadMobile()
 {
+  console.log("mobile loaded");
   if(isMobile())
   {
       $('head').append('<link rel="stylesheet" href=' + baseurl() + '"/main_mobile.css" type="text/css" />');
