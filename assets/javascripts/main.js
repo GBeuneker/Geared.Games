@@ -1,6 +1,6 @@
 $(function(){
-  pushFooterDown();
   loadMobile();
+  pushFooterDown();
 })
 
 $(window).on('resize', function(){
