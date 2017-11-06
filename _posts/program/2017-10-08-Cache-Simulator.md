@@ -5,7 +5,7 @@ tag: hobby
 
 # Featured image
 images:
-  - url: /assets/images/caching-thumbnail.jpg
+  - url: /assets/images/caching_thumbnail.jpg
     alt: Program Picture
     title: Photo Browser
 
