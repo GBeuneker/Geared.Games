@@ -1,3 +1,4 @@
-baseurl: "https://gbeuneker.gitlab.io/GearedGam.es/"
+baseurl: "https://gbeuneker.gitlab.io/GearedGam.es"
+url: "/"
 permalink: /:categories/:title
 excerpt_separator: <!--content-->
