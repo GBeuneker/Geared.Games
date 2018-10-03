@@ -1,7 +1,7 @@
 ---
 layout: game
 category: program
-tag: hobby
+tag: school
 
 # Featured image
 images:
