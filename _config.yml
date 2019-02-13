@@ -19,6 +19,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 excerpt_separator: <!--content-->
 
+# Google Analytics
+google_analytics: UA-134411938-1
+
 plugins:
   - jekyll-sitemap
   - jekyll-feed
