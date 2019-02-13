@@ -14,10 +14,14 @@ email: g.beuneker@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Geared Games is the portfolio website for game programmer Geert Beuneker.
 baseurl: ""
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.geared.games" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 excerpt_separator: <!--content-->
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown
