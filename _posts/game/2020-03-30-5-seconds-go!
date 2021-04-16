@@ -1,0 +1,29 @@
+---
+layout: game
+category: game
+tag: hobby
+
+# Featured image
+images:
+  - url: /assets/images/5seconds-small.png
+    alt: 5 seconds go small
+    title: 5 Seconds Go!
+
+  - url: /assets/images/5seconds-large.png
+    alt: 5 seconds go large
+    title: 5 Seconds Go!
+---
+A party game where you have to quickly name 3 things in 5 seconds.
+<!--content-->
+
+## Description
+This is a Progressive Web App built in Angular. It is meant to run on all platforms and through PWA be easily installable on your phone.
+
+## Motivation
+It is based a really fun game I stumbled upon: 5 second rule. I couldn't find any apps which worked the way I liked so I decided to build my own!
+
+## Details
+**Release Date:** {{page.date | date:'%B %d, %Y'}}  
+**Framework:** Angular   
+**Language:** Typescript,Html.CSS
+**Link:**  [Play](https://seconds-926a9.web.app/)
