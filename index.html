@@ -25,11 +25,13 @@ id: home
   				{% endif %}
   		  </div>
 
+
   		  <div class="tile-text">
+		{% if post.category != "video" %}
   		    <div class="tile-title">
   		      <h1>{{post.title}}</h1>
   		    </div>
-
+		{% endif %}
   		    <div class="tile-excerpt">
   		      <p>{{post.excerpt}}</p>
   		    </div>
